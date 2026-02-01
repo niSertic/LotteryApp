@@ -114,6 +114,7 @@
             btnDraw.TabIndex = 10;
             btnDraw.Text = "Draw Ball";
             btnDraw.UseVisualStyleBackColor = true;
+            btnDraw.Click += btnDraw_Click;
             // 
             // btnReset
             // 
@@ -124,6 +125,7 @@
             btnReset.TabIndex = 11;
             btnReset.Text = "Reset";
             btnReset.UseVisualStyleBackColor = true;
+            btnReset.Click += btnReset_Click;
             // 
             // Form1
             // 
